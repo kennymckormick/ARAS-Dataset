@@ -4,9 +4,15 @@
   <img src="aras.png" width="600px"><br>
 </div>
 
-Action with RAre Scene is a small scale dataset collected from Youtube. By definition, it includes video clips of human actions (those action categories fall into Kinetics-400 action classes) with rare scenes or backgrounds. To collect this dataset, we begin with action labels in Kinetics and consider some rare scenes. The combinations of actions and rare scenes are used as queries to obtain web videos from YouTube. We manually examine the web videos and obtain around ten videos for each class in 104 Kinetics classes, denoted as Action with RAre Scenes (ARAS). In our paper [Mitigating Representation Bias in Action Recognition: Algorithms and Benchmarks](https://arxiv.org/pdf/2209.09393.pdf), we use ARAS to simulate the out-of-distribution testing for scene-debiasing evaluation.
+**A**ction with **RA**re **S**cene is a small scale dataset collected from Youtube. By definition, it includes video clips of human actions (those action categories fall into Kinetics-400 action classes) with rare scenes or backgrounds. To collect this dataset, we begin with action labels in Kinetics and consider some rare scenes. The combinations of actions and rare scenes are used as queries to obtain web videos from YouTube. We manually examine the web videos and obtain around ten videos for each class in 104 Kinetics classes, denoted as Action with RAre Scenes (ARAS). In our paper [Mitigating Representation Bias in Action Recognition: Algorithms and Benchmarks](https://arxiv.org/pdf/2209.09393.pdf), we use ARAS to simulate the out-of-distribution testing for scene-debiasing evaluation.
 
-We have made the ARAS dataset publicly available now! You can download the [video clips](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155136485_link_cuhk_edu_hk/Ec_sMtgujRFEpMsLJp1wYTUB_wZSQXTJVJTGl78svXu3ZA?e=ZDjLYo) and the [annotations files](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155136485_link_cuhk_edu_hk/EX8brWB7u1ZHn0-nz6558vYBHDdW19v5bVRhYu9B3E6dmA?e=LtxJI3) with the provided links. Also, check [raw videos](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155136485_link_cuhk_edu_hk/Ehvq1BzIWgVEqARTzJ279YoBR0SBpIE-zBdBvorOawqu3A?e=evVvPc) if you want to browse some raw videos. 
+We have made the ARAS dataset publicly available now! You can download the [video clips](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155136485_link_cuhk_edu_hk/Ec_sMtgujRFEpMsLJp1wYTUB_wZSQXTJVJTGl78svXu3ZA?e=ZDjLYo) with the provided link. Also, check [raw videos](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155136485_link_cuhk_edu_hk/Ehvq1BzIWgVEqARTzJ279YoBR0SBpIE-zBdBvorOawqu3A?e=evVvPc) if you want to browse some raw videos. 
+
+In `annotations`, we provide some annotations files for you to easily use this dataset:
+
+- `aras_clip_info.txt`: The trimming information of each clip, each line has 3 items: `clip_name`, `start_index (second)`, `end_index (second)`
+- `aras_test_balance.txt`: The file list of ARAS-104, a balanced test set we used in the paper, it includes 1038 video clips from 920 untrimmed videos. The test set covers 104 Kinetics-400 actions. 
+- `k400_actions.txt`: A name list of 400 Kinetics actions, sorted by category index. 
 
 Please cite this work if you find ARAS useful to your research project:
 
