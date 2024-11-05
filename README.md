@@ -8,9 +8,9 @@
 
 Update (2024-11-05): The dataset files are moved to Google Drive. Here are the new download links:
 
-Annotations: https://drive.google.com/file/d/1AdSrll9S_f47LUMchDZuzWBn419ndZ2C/view?usp=sharing
-CLIP Files: https://drive.google.com/file/d/1GwjfhpRAq-o9wPBntFLBuIL52eExeG5T/view?usp=sharing
-Raw Video Files: https://drive.google.com/file/d/1vX6kswg1EjzB4P-OV0kGEJ6JTtbiM7WV/view?usp=sharing
+- Annotations: https://drive.google.com/file/d/1AdSrll9S_f47LUMchDZuzWBn419ndZ2C/view?usp=sharing
+- CLIP Files: https://drive.google.com/file/d/1GwjfhpRAq-o9wPBntFLBuIL52eExeG5T/view?usp=sharing
+- Raw Video Files: https://drive.google.com/file/d/1vX6kswg1EjzB4P-OV0kGEJ6JTtbiM7WV/view?usp=sharing
 
 
 In `annotations`, we provide some annotations files for you to easily use this dataset:
